@@ -1,0 +1,97 @@
+/* Inserta tu CSS aqui */
+a{
+	text-decoration: none;
+	color:black;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.pd-2{
+	padding: 2%;
+}
+.pd-4{
+	padding: 4%;
+}
+.pdlr-2{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.pdt-5{
+	padding-top: 5%;
+}
+.pdtb-5{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.letra{
+	font-size: Oswald Arial;
+	color:#f71d7f;
+}
+.fondo1{
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	height: 300px;
+
+}
+.fondo2{
+	background-image: url("../images/tile1.png");
+	background-size: cover;
+	height: 350px;
+
+}
+.fondo3{
+	background-image: url("../images/tile2.png");
+	background-size: cover;
+	height: 150px;
+
+}
+.obj-center{
+	display: block;
+	margin:0 auto;
+}
+.letra2{
+	color: #f71d7f;
+	font-size: Oswald Arial;
+}
+.img-perfil{
+	width: 100%;
+	height: 100%;
+}
+.round-img{
+	border:1px pink solid;
+	border-radius:50%;
+	width: 150px;
+	height: 150px;
+}
+.peque-img{
+	width: 50px;
+	height: 50px;
+}
+
+a img:hover{
+	-webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+a:hover{
+	color:#f71d7f;
+}
+
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.inline{
+	display: inline-block;
+}
+.pdl-20{
+	margin-left: 40%;
+}
